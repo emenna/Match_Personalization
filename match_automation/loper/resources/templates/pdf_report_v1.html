@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Report V1</title>
+    <style>
+        #diamond {
+          width: 0;
+          height: 0;
+          border: 50px solid transparent;
+          border-bottom-color: red;
+          position: relative;
+          top: -50px;
+        }
+        #diamond:after {
+          content: '';
+          position: absolute;
+          left: -50px;
+          top: 50px;
+          width: 0;
+          height: 0;
+          border: 50px solid transparent;
+          border-top-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <strong style="font-size:45px;">The Catholic University of America</strong>
+    </div>
+    <div class="overview">
+        <strong style="color:blue;font-size:30px">OVERVIEW</strong>
+        <hr size="5" color="green">
+    </div>
+    <div class="why">
+        <strong style="color:blue;font-size:30px">WHY YOU MATCHED AND WHERE TO LEARN MORE</strong>
+        <hr size="5" color="green">
+    </div>
+    <div class="admissions_info">
+        <strong style="color:blue;font-size:30px">ADMISSIONS INFORMATION</strong>
+        <hr size="5" color="green">
+    </div>
+    <div class="footer">
+        <div id="diamond"></div>
+        <hr size="2" color="blue">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+pandas
+openpyxl
+click
+pdfkit
+wkhtmltopdf
